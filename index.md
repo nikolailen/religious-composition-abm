@@ -24,6 +24,22 @@ How does Muslim population share change over 30 years under a revised baseline c
 ## 2. Data and Baseline Calibration
 Calibration details are in `calibration_notes.md`.
 
+### 2.1 Primary data sources
+
+- INSEE Premiere No. 2087 (published January 13, 2026): aggregate demography for France (population, births, deaths, net migration, TFR).
+- INSEE 2023 immigrant entries by country of birth: migration-origin composition.
+- INSEE detailed tables in `data/insee_2025/`: age structure, fertility profile, mortality profile.
+- Pew Research Center `Religious Composition 2010-2020`: country-level Muslim shares for origin mapping.
+- World Bank indicator `SP.DYN.TFRT.IN`: country-level TFR values used for fertility proxy.
+
+### 2.2 Source files in this repository
+
+- `data/incoming_origin_religion_mapping_2023.csv`
+- `data/incoming_origin_religion_summary_2023.json`
+- `data/muslim_country_fertility_proxy.csv`
+- `data/muslim_country_fertility_proxy_summary.json`
+- `calibration_notes.md`
+
 Revised baseline values:
 
 - `share-muslim-incoming = 0.52`
@@ -36,10 +52,19 @@ Revised baseline values:
 Construction notes:
 
 - `share-muslim-incoming = 0.52` is the known-country weighted value from `data/incoming_origin_religion_mapping_2023.csv`.
-- `muslim-birth-rate = 2.81` is a weighted TFR proxy from majority-Muslim origin countries in the 2023 entrant list:
-  - `data/muslim_country_fertility_proxy.csv`
-  - `data/muslim_country_fertility_proxy_summary.json`
+- `muslim-birth-rate = 2.81` is a weighted TFR proxy from majority-Muslim origin countries in the 2023 entrant list (see `data/muslim_country_fertility_proxy.csv` and `data/muslim_country_fertility_proxy_summary.json`).
 - `agents-coming = 3.36` and `agents-leaving = 1.66` are scaled from entrant and implied outflow counts under 670-agent representation.
+
+### 2.3 Included numeric anchors and derived inputs
+
+- Population scale anchor: about 69.1 million represented by 670 agents.
+- INSEE aggregate anchors (2025): births about 645,000; deaths about 651,000; net migration about +176,000; TFR about 1.56.
+- Entrant total in mapping year (2023): 346,900.
+- Covered listed-country arrivals: 250,300 (72.15% coverage).
+- Weighted Muslim share on covered origins: 52.15% (baseline uses `share-muslim-incoming = 0.52`).
+- Residual-adjusted alternative share: 47.33% (sensitivity reference).
+- Majority-Muslim origin-country fertility proxy: 2.8057 (rounded to `muslim-birth-rate = 2.81`).
+- Baseline migration rates used in model: `agents-coming = 3.36`, `agents-leaving = 1.66`.
 
 ## 3. Model Structure
 Each tick is one year. Each tick applies:
