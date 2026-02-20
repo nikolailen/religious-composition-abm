@@ -1,0 +1,49 @@
+<experiments>
+  <experiment name="baseline_30y" repetitions="200" sequentialRunOrder="true" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <timeLimit steps="30"/>
+    <metric>count turtles</metric>
+    <metric>count turtles with [religion = "muslim"]</metric>
+    <metric>count turtles with [religion = "non-muslim"]</metric>
+    <metric>ifelse-value (count turtles = 0) [0] [count turtles with [religion = "muslim"] / count turtles]</metric>
+    <enumeratedValueSet variable="share-muslim-incoming"><value value="0.52"/></enumeratedValueSet>
+    <enumeratedValueSet variable="muslim-birth-rate"><value value="2.81"/></enumeratedValueSet>
+    <enumeratedValueSet variable="non-muslim-birth-rate"><value value="1.56"/></enumeratedValueSet>
+    <enumeratedValueSet variable="coverage-coefficient"><value value="1"/></enumeratedValueSet>
+    <enumeratedValueSet variable="agents-coming"><value value="3.36"/></enumeratedValueSet>
+    <enumeratedValueSet variable="agents-leaving"><value value="1.66"/></enumeratedValueSet>
+  </experiment>
+
+  <experiment name="no_migration_30y" repetitions="200" sequentialRunOrder="true" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <timeLimit steps="30"/>
+    <metric>count turtles</metric>
+    <metric>count turtles with [religion = "muslim"]</metric>
+    <metric>count turtles with [religion = "non-muslim"]</metric>
+    <metric>ifelse-value (count turtles = 0) [0] [count turtles with [religion = "muslim"] / count turtles]</metric>
+    <enumeratedValueSet variable="share-muslim-incoming"><value value="0.52"/></enumeratedValueSet>
+    <enumeratedValueSet variable="muslim-birth-rate"><value value="2.81"/></enumeratedValueSet>
+    <enumeratedValueSet variable="non-muslim-birth-rate"><value value="1.56"/></enumeratedValueSet>
+    <enumeratedValueSet variable="coverage-coefficient"><value value="1"/></enumeratedValueSet>
+    <enumeratedValueSet variable="agents-coming"><value value="0"/></enumeratedValueSet>
+    <enumeratedValueSet variable="agents-leaving"><value value="0"/></enumeratedValueSet>
+  </experiment>
+
+  <experiment name="high_inflow_share_30y" repetitions="200" sequentialRunOrder="true" runMetricsEveryStep="true">
+    <setup>setup</setup>
+    <go>go</go>
+    <timeLimit steps="30"/>
+    <metric>count turtles</metric>
+    <metric>count turtles with [religion = "muslim"]</metric>
+    <metric>count turtles with [religion = "non-muslim"]</metric>
+    <metric>ifelse-value (count turtles = 0) [0] [count turtles with [religion = "muslim"] / count turtles]</metric>
+    <enumeratedValueSet variable="share-muslim-incoming"><value value="0.70"/></enumeratedValueSet>
+    <enumeratedValueSet variable="muslim-birth-rate"><value value="2.81"/></enumeratedValueSet>
+    <enumeratedValueSet variable="non-muslim-birth-rate"><value value="1.56"/></enumeratedValueSet>
+    <enumeratedValueSet variable="coverage-coefficient"><value value="1"/></enumeratedValueSet>
+    <enumeratedValueSet variable="agents-coming"><value value="3.36"/></enumeratedValueSet>
+    <enumeratedValueSet variable="agents-leaving"><value value="1.66"/></enumeratedValueSet>
+  </experiment>
+</experiments>

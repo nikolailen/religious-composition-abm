@@ -1,0 +1,4 @@
+scenario,scenario_label,runs,mean_final_share,p10_final_share,median_final_share,p90_final_share,mean_final_total_pop,mean_final_muslim_pop,mean_final_non_muslim_pop,share_runs_ge_50,share_runs_ge_75,share_runs_ge_95,median_first_step_ge_0_5,median_first_step_ge_0_75,median_first_step_ge_0_95
+baseline_30y,Baseline calibrated,200,0.1922941697402378,0.16422666750804568,0.19001171327155894,0.22046010768477725,667.405,128.45,538.955,0.0,0.0,0.0,,,
+high_inflow_share_30y,High Muslim inflow share (70%),200,0.22490809487080873,0.19799525727779646,0.22338095977636274,0.25433859970975603,669.185,150.515,518.67,0.0,0.0,0.0,,,
+no_migration_30y,No migration counterfactual,200,0.12258079689553208,0.09699927658548345,0.1218893153398539,0.1485235061967735,606.085,74.42,531.665,0.0,0.0,0.0,,,

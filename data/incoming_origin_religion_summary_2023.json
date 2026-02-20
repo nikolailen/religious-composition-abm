@@ -1,0 +1,68 @@
+{
+  "total_entrants_2023": 346900,
+  "country_rows_covered": 30,
+  "covered_arrivals": 250300,
+  "covered_share_pct": 72.15335831651772,
+  "weighted_muslim_share_pct_known_countries_only": 52.147464923607664,
+  "weighted_muslim_share_pct_with_residuals": 47.3341418305204,
+  "residual_assumptions": {
+    "africa_residual_share_pct": 69.87989770777406,
+    "asia_residual_share_pct": 26.13237572,
+    "europe_residual_share_pct": 6.043626785,
+    "americas_oceania_residual_share_pct": 0.6511233115007755
+  },
+  "africa_residual_mix_basis": {
+    "north_africa_listed_weight": 0.6041841004184101,
+    "sub_saharan_listed_weight": 0.3958158995815899,
+    "mena_share_pct": 94.18347168,
+    "ssa_share_pct": 32.78226471
+  },
+  "continent_breakdown": {
+    "Afrique": {
+      "total": 157700,
+      "known_arrivals": 119500,
+      "known_weighted": 99894.58960277999
+    },
+    "Asie": {
+      "total": 62500,
+      "known_arrivals": 41900,
+      "known_weighted": 27650.205919259
+    },
+    "Europe": {
+      "total": 95400,
+      "known_arrivals": 70300,
+      "known_weighted": 2911.997834869
+    },
+    "Amérique, Océanie": {
+      "total": 31300,
+      "known_arrivals": 18600,
+      "known_weighted": 68.311346882
+    }
+  },
+  "residual_rows": [
+    {
+      "continent": "Afrique",
+      "residual_arrivals": 38200,
+      "residual_muslim_share_pct_assumed": 69.879898,
+      "residual_weighted_muslim_arrivals": 26694.120924
+    },
+    {
+      "continent": "Asie",
+      "residual_arrivals": 20600,
+      "residual_muslim_share_pct_assumed": 26.132376,
+      "residual_weighted_muslim_arrivals": 5383.269398
+    },
+    {
+      "continent": "Europe",
+      "residual_arrivals": 25100,
+      "residual_muslim_share_pct_assumed": 6.043627,
+      "residual_weighted_muslim_arrivals": 1516.950323
+    },
+    {
+      "continent": "Amérique, Océanie",
+      "residual_arrivals": 12700,
+      "residual_muslim_share_pct_assumed": 0.651123,
+      "residual_weighted_muslim_arrivals": 82.692661
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "runs":50,
+    "mean_final_share":0.9916299912,
+    "p10_final_share":0.9882482637,
+    "median_final_share":0.9922248734,
+    "p90_final_share":0.9946807322,
+    "max_final_share":0.9967899536,
+    "runs_ever_ge_0_5":50,
+    "runs_ever_ge_0_75":50,
+    "runs_ever_ge_0_9":50,
+    "runs_ever_ge_0_95":50,
+    "runs_ever_ge_0_99":35,
+    "runs_ever_ge_1_0":0
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "runs":400,
+    "runs_reached_50pct_within_200y":400,
+    "share_reached_50pct_within_200y":1.0,
+    "crossing_step_stats_if_reached":{
+      "p10_step":86.9,
+      "median_step":102.0,
+      "p90_step":119.0,
+      "min_step":71,
+      "max_step":153
+    }
+  }
+]

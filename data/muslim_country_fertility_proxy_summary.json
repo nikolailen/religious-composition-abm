@@ -1,0 +1,9 @@
+{
+  "selection_rule": "countries in INSEE 2023 origin list with Pew 2020 Muslim share >= 50%",
+  "country_count": 11,
+  "selected_arrivals_2023": 123400.0,
+  "selected_arrivals_share_of_known_rows_pct": 49.30083899320815,
+  "selected_arrivals_share_of_total_entrants_pct": 35.572211011818965,
+  "weighted_tfr_proxy_latest": 2.8057350081037282,
+  "rounded_model_default_muslim_birth_rate": 2.81
+}
