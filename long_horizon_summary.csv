@@ -1,4 +1,0 @@
-scenario,runs,mean_final_share,p10_final_share,p90_final_share,mean_final_pop,runs_crossed_95pct,share_runs_crossed_95pct,median_first_cross_tick_95pct,runs_crossed_99_9pct
-baseline_500y,50,0.4702646905017237,0.4063424485563015,0.5418066469612861,242.34,0,0.0,,0
-high_migration_500y,50,0.7004534334095615,0.6350211619853791,0.7801671732522796,240.46,0,0.0,,0
-extreme_500y,50,0.9999979583503471,1.0,1.0,9615.44,50,1.0,163.0,50
