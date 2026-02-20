@@ -8,7 +8,7 @@ title: France Religious Composition ABM (30-Year Outlook + Majority Threshold)
 **Article type:** Simulation study  
 **Date:** 2026  
 **Author:** [Nikolai Len](https://www.linkedin.com/in/niklen/)  
-**Keywords:** netlogo, agent-based-model, demography, simulation
+**Keywords:** netlogo, agent-based-model, demography, simulation, religious-breakdown
 
 ## Abstract
 This study uses a calibrated NetLogo agent-based model to examine changes in religious composition in France. Under the revised baseline (`share-muslim-incoming = 0.52`, `muslim-birth-rate = 2.81`, `agents-coming = 3.36`, `agents-leaving = 1.66`), the 30-year baseline run (2026-2056) rises from about 10% to about 19.2% Muslim share (P10-P90: 16.4%-22.0%). In a separate longer threshold run (same baseline assumptions, 200 years, 400 repetitions), the first year where at least half of runs are above 50% is 2128 (about 102 years after 2026).
