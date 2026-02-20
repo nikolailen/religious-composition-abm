@@ -29,6 +29,7 @@ Key baseline assumptions used in the current report:
 - INSEE Premiere No. 2087 (published January 13, 2026): aggregate France demography for 2025.
 - INSEE table on immigrant entries by country of birth (2023): used for migration-origin mapping.
 - INSEE population and age-profile tables in `data/insee_2025/`: age structure, fertility schedule, mortality schedule.
+- INSEE/INED TeO2 survey (2019-2020): religion identification estimates, including about 10% Muslim among ages 18-59.
 - Pew Research Center dataset `Religious Composition 2010-2020`: country Muslim-share mapping.
 - World Bank indicator `SP.DYN.TFRT.IN`: country total fertility rates used for proxy construction.
 
@@ -50,6 +51,7 @@ Repository source files used directly:
 - Residual-adjusted alternative share: 47.33% (kept as sensitivity reference).
 - Majority-Muslim origin-country fertility proxy: 2.8057, rounded to `muslim-birth-rate = 2.81`.
 - Migration flow rates in model: `agents-coming = 3.36`, `agents-leaving = 1.66`.
+- Initial Muslim share at setup: `0.10`, sourced as TeO2 (2019-2020) proxy for ages 18-59.
 
 ## Repository Structure
 

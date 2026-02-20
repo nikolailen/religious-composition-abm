@@ -29,6 +29,7 @@ Calibration details are in `calibration_notes.md`.
 - INSEE Premiere No. 2087 (published January 13, 2026): aggregate demography for France (population, births, deaths, net migration, TFR).
 - INSEE 2023 immigrant entries by country of birth: migration-origin composition.
 - INSEE detailed tables in `data/insee_2025/`: age structure, fertility profile, mortality profile.
+- INSEE/INED TeO2 (2019-2020): religion-identification survey used for the initial-share proxy.
 - Pew Research Center `Religious Composition 2010-2020`: country-level Muslim shares for origin mapping.
 - World Bank indicator `SP.DYN.TFRT.IN`: country-level TFR values used for fertility proxy.
 
@@ -65,6 +66,7 @@ Construction notes:
 - Residual-adjusted alternative share: 47.33% (sensitivity reference).
 - Majority-Muslim origin-country fertility proxy: 2.8057 (rounded to `muslim-birth-rate = 2.81`).
 - Baseline migration rates used in model: `agents-coming = 3.36`, `agents-leaving = 1.66`.
+- Initial Muslim share at setup: 0.10, taken from TeO2 estimate (about 10% among ages 18-59).
 
 ## 3. Model Structure
 Each tick is one year. Each tick applies:
