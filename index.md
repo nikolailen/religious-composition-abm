@@ -166,3 +166,4 @@ Under current baseline assumptions, the model points to about 20% share by 2056 
 Nikolai Len
 
 - 👤 [LinkedIn](https://www.linkedin.com/in/niklen/)
+- 💻 [Repository (code and data)](https://github.com/nikolailen/religious-composition-abm)
