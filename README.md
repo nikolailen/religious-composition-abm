@@ -1,7 +1,7 @@
 # Religious Composition ABM
 
-- :globe_with_meridians: [Project page](https://nikolailen.github.io/religious-composition-abm/)
-- :bust_in_silhouette: Project contact: [Nikolai Len](https://www.linkedin.com/in/niklen/)
+- :globe_with_meridians: [Project page](https://nicolas-len.github.io/religious-composition-abm/)
+- :bust_in_silhouette: Project contact: [Nicolas Len](https://www.linkedin.com/in/niclen/)
 
 Agent-based modeling project in NetLogo for scenario analysis of religious composition change in France under migration, fertility, and mortality assumptions.
 
