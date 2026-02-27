@@ -163,7 +163,7 @@ Under current baseline assumptions, the model points to about 20% share by 2056 
 
 ## Contact
 
-Nicolas Len
+[Nicolas Len](https://www.linkedin.com/in/niclen/)
 
 - 👤 [LinkedIn](https://www.linkedin.com/in/niclen/)
 - 💻 [Repository (code and data)](https://github.com/nicolas-len/religious-composition-abm)
